@@ -8,3 +8,7 @@
 - [x] Độ trễ của mạng
 - [x] Cách tối ưu độ trễ mạng
 - [x] Độ trễ của bộ nhớ
+
+## Performance có nghĩa là gì?
+
+> Hiệu suất là ...
