@@ -11,4 +11,10 @@
 
 ## Performance có nghĩa là gì?
 
-> Hiệu suất là ...
+> Hiệu suất là tốc độ đáp ứng một request. Ví dụ trong một ứng dụng Web (dạng client-server), khi có một request đến server thì server sẽ phản hổi lại một response nhanh như thế nào (ví dụ 1ms, 10ms,.. cho một request) được xem là hiệu suất của hệ thống.
+
+### Nguyên nhân phát sinh vấn đề hiệu suất
+- fd
+- fdfdf
+- fdfdfd
+
