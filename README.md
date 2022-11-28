@@ -13,6 +13,12 @@
 
 > Hiệu suất là tốc độ đáp ứng một request. Ví dụ trong một ứng dụng Web (dạng client-server), khi có một request đến server thì server sẽ phản hổi lại một response nhanh như thế nào (ví dụ 1ms, 10ms,.. cho một request) được xem là hiệu suất của hệ thống.
 
+<p align="center">
+  <img src="./system1.png" alt="Hệ thống đơn giản" /> 
+  <br/>
+  <spans>Hình ảnh một hệ thống đơn giản</spans>
+</p>
+
 ### Nguyên nhân phát sinh vấn đề hiệu suất
 - Thắt nút cổ chai tại các hàng đợi xử lý (queue network, queue trong OS, queue IO trong database,...)
   + Database
