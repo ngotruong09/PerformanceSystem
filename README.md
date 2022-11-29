@@ -39,4 +39,4 @@
 - Xử lý đa luồng thay vì xử lý tuần tự.
 - Tăng khả năng của phần cứng. Nhiều lúc hệ thống ổn hết rồi mà do phần cứng cùi mía quá làm giảm performance.
 
-> Vậy mục tiêu tối ưu của chúng ta là `làm sao để tăng tốc độ đáp ứng của một request` tức là chúng ta đang làm giảm độ trễ của việc đáp ứng một request. Và làm sao để `tăng throughput` của hệ thống tức là tăng khả năng xử lý số lượng request của hệ thống ví dụ system có thể xử lý 1000 request/1s bây giờ chúng ta tuning thành 10000/1s.
+> Vậy mục tiêu tối ưu của chúng ta là `làm sao để tăng tốc độ đáp ứng của một request` tức là chúng ta đang làm giảm độ trễ. Và làm sao để `tăng throughput` của hệ thống tức là tăng khả năng xử lý request của hệ thống ví dụ system có thể xử lý 1000 request/1s bây giờ chúng ta tuning thành 10000/1s.
