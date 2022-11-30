@@ -65,6 +65,7 @@ Chúng ta xem xét hệ thống của chúng ta đang sử dụng giao thức m�
   <spans>Hình ảnh tham khảo trên internet</spans>
 </p>
 Trong hình minh họa trên, chúng ta thấy với kết nốt non-persistent sẽ tốn thời gian nhiều hơn do phải thiết lập lại connection.
+
 - Nếu là server giao tiếp với server thì dùng giao thức Http hay Http2.0 (thường dùng gRPC) hay AMQP (ví dụ RabbitMQ)
 
 ### Giảm dung lượng data truyền qua mạng
