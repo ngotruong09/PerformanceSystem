@@ -73,6 +73,14 @@ Trong hình minh họa trên, chúng ta thấy với kết nốt non-persistent 
 - Chúng ta cần `Bundling` và `Minification` các file script trước khi gửi về client;
 - Nén dữ liệu trước khi gửi qua mạng.
 
-....
+## Giảm độ trễ của việc truy cập memory
 
+- Tránh phình bộ nhớ
+  + Phần code base càng nhỏ càng tốt. Vì khi chạy chương trình phần này cũng được nạp vào memory. Tuy nhiên ứng dụng của chúng ta phụ thuộc vào framework vậy nên chúng ta khó control độ lớn của code base. Nhưng ở đây mình có một số gợi ý là hãy làm tốt khâu thiết kế kiến trúc và nếu đang code theo hướng đối tượng thì nên áp dụng và code design pattern.
+  + Chúng ta tránh khai đối tượng khi không cần thiết để tránh phình Head Memory.
+  + Sử dụng tốt pattern dispose, để hủy resource khi không sử dụng.
+  + Tránh sử dụng các thư viện ngốn nhiều memory ví dụ khi xử lý excel thì `close xml` ngốn nhiều memory hơn là `aspose`.
+- Sử dụng Weak Reference cho các đối tượng lớn
+- Chia nhỏ một process lớn thành nhiều process nhỏ.
+- Đối với database thì cần chuẩn hóa (normalize) để câu query được tối ưu hơn, vì ít join hơn nên bộ nhớ sử dụng dưới database cũng ít hơn.
 
