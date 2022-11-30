@@ -66,9 +66,9 @@ Cách tối ưu độ trễ của mạng (chúng ta đang xét mô hình client-
 
 Chúng ta xem xét hệ thống của chúng ta đang sử dụng giao thức mạng nào?
 - Http1.0 sử dụng non-persistent connection;
-- Http1.1, Http2.0 sử dụng persistent connection;
+- Http1.1, Http2.0 và [Http/3](https://datatracker.ietf.org/doc/html/rfc9114)  sử dụng persistent connection;
 
-> Nên ưu tiên chon Http2.0 vì nó cho tốc độ tải nhanh hơn Http1.0 và Http1.1
+> Nên ưu tiên chon Http2.0 hoặc Http/3 vì nó cho tốc độ tải nhanh hơn Http1.0 và Http1.1
 
 - Nếu là server giao tiếp với server, chúng ta nên sử dụng Http2.0 (thường dùng gRPC) hay sử dụng Message broken (ví dụ RabbitMQ sử dụng giao thức AMQP ) .
 
